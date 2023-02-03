@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    background-color: hsl(216, 12%, 54%);
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.rating-container {
+    gap: 15px;
+    display: flex;
+}
+
